@@ -1,0 +1,19 @@
+
+# The first thing was focusing on settings.py...like making sensetive datas(secret_key) and some values of variable should be dynamic(inside .env)
+# And it also include setting up postgresql instead of sqlite:
+DEBUG=True
+SECRET_KEY='django-insecure-*tj3@=z9y279hrt64mbe#1ha@dk_+oh!y7hki@8*m=9u516gm6'
+DB_NAME=djcrm
+DB_USER=djcrmuser
+DB_PASSWORD=djcrm1234
+DB_HOST=localhost
+
+# the last thing is b4 deploying to production server...we should configure static file:
+# you can search it of on google: "whitenoise django"
+-> whitenoise
+
+# deploy on degital ocean
+
+# Email sending with mailgun
+
+# Using a custom domain...like creating subdomain...to manage or own the project under your control
